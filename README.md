@@ -3,27 +3,45 @@
 **Author:** Allen Proxmire  
 **Date:** August 2025  
 
-This repository contains my computational exploration of **twin prime offsets** —  
-for each twin prime pair \((p, p+2)\) with \(p \le 1,000,000\), I applied:
+---
 
-- q₁ = 2p + 1  
-- q₂ = 2p + 7  
-- q₃ = 2p − 3  
-- q₄ = 2p + 3  
+## Overview
+This project explores a simple but intriguing pattern in prime numbers.
 
-and checked for additional primes.
+For each twin prime pair \((p, p+2)\) with \(p \leq 1,000,000\), I applied four linear offsets to the first prime \(p\):
 
-## Summary of findings
-- At least one offset yields a prime in ~57% of twin prime cases.
-- Twin primes ending in (1,3) and (7,9) yield primes in ~64% of cases.
-- (9,1) endings yield fewer primes (~43%), and only q₁ and q₄ work here.
+- **q₁ = 2p + 1**  — (Sophie Germain form)  
+- **q₂ = 2p + 7**  
+- **q₃ = 2p − 3**  
+- **q₄ = 2p + 3**  
 
-## Files
-- **PDF:** Full write-up of results
-- **Python script:** Code to generate twin primes and test offsets
-- **Data (CSV):** Counts and percentages for each category
+The resulting numbers were tested for primality, and results were categorized by the last-digit pattern of the twin prime pair.
 
 ---
 
-I welcome feedback and collaboration!  
-If you want to reproduce the results, see the code file or contact me.
+## Key Findings
+- At least one offset produces a prime in **~57%** of all twin prime pairs tested.
+- Twin primes ending in **(1,3)** and **(7,9)** yield primes in **~64%** of cases.
+- Pairs ending in **(9,1)** yield primes less often (~43%), and only q₁ and q₄ produce them in this case.
+- This suggests interesting structural biases in prime distribution worth further exploration.
+
+---
+
+## Files in this Repository
+- **OFFSETTING_TWIN_PRIMES_PUB_NOTE.pdf** — Full 3-page write-up of methods and results.
+- *(Optional)* Python script for generating twin primes, applying offsets, and testing for primality.
+- *(Optional)* CSV data file of all results for reproducibility.
+
+---
+
+## How to Reproduce
+1. Generate all twin primes \((p, p+2)\) with \(p \leq 1,000,000\).
+2. Apply the four offset formulas to \(p\).
+3. Test each result for primality.
+4. Tabulate prime/non-prime counts by twin prime ending digit pattern.
+
+---
+
+## Contact
+I welcome questions, feedback, or collaborations.  
+Please open an **Issue** in this repository or email me directly.
