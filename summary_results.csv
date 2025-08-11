@@ -1,0 +1,2 @@
+category,total_pairs,four_primes_found,three_primes_found,two_primes_found,one_prime_found,no_primes_found,at_least_one_prime_found,at_least_one_prime_percent
+all_twin_primes,8167,0,105,1083,3463,3516,4651,56.95
