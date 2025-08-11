@@ -1,0 +1,4 @@
+ending_pattern,total_pairs,four_primes_found,three_primes_found,two_primes_found,one_prime_found,no_primes_found,at_least_one_prime_found,at_least_one_prime_percent
+(1,3),2736,0,46,487,1205,998,1738,63.52
+(7,9),2734,0,59,453,1239,983,1751,64.05
+(9,1),2697,0,0,143,1019,1535,1162,43.08
