@@ -42,6 +42,11 @@ The resulting numbers were tested for primality, and results were categorized by
 
 ---
 
+## DOI
+https://doi.org/10.5281/zenodo.16804729
+
+---
+
 ## Contact
 I welcome questions, feedback, or collaborations.  
 Please open an **Issue** in this repository or email me directly.
