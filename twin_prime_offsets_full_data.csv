@@ -1,0 +1,5 @@
+twin_prime_p,twin_prime_p_plus_2,q1,q1_is_prime,q2,q2_is_prime,q3,q3_is_prime,q4,q4_is_prime
+11,13,23,TRUE,29,TRUE,19,TRUE,25,FALSE
+17,19,35,FALSE,41,TRUE,31,TRUE,37,TRUE
+29,31,59,TRUE,65,FALSE,55,FALSE,61,TRUE
+...
