@@ -29,8 +29,8 @@ The resulting numbers were tested for primality, and results were categorized by
 
 ## Files in this Repository
 - **OFFSETTING_TWIN_PRIMES_PUB_NOTE.pdf** — Full 3-page write-up of methods and results.
-- *(Optional)* Python script for generating twin primes, applying offsets, and testing for primality.
-- *(Optional)* CSV data file of all results for reproducibility.
+- Python script for generating twin primes, applying offsets, and testing for primality.
+- CSV data file of all results for reproducibility.
 
 ---
 
