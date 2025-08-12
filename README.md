@@ -35,7 +35,7 @@ The resulting numbers were tested for primality, and results were categorized by
 ---
 
 ## How to Reproduce
-1. Generate all twin primes \((p, p+2)\) with \(p \leq 1,000,000\).
+1. Generate all twin primes (p, p+2) with (p ≤ 1,000,000).
 2. Apply the four offset formulas to \(p\).
 3. Test each result for primality.
 4. Tabulate prime/non-prime counts by twin prime ending digit pattern.
