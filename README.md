@@ -18,7 +18,7 @@ For each twin prime pair (p, p+2), the following expressions were tested for pri
 
 ## Methodology  
 - **Twin primes tested:** all pairs with \(p \leq 1{,}000{,}000\).  
-- **Prime testing:** each \(q_i\) was checked for primality using Python.  
+- **Prime testing:** each (q) was checked for primality using Python.  
 - **Analysis goal:** measure how often each offset produces primes and compare across offsets.  
 
 ## Key Results  
@@ -33,11 +33,8 @@ For each twin prime pair (p, p+2), the following expressions were tested for pri
 - Data files contain counts and distributions of primes by offset.  
 
 ## Citation  
-If you use this work, please cite via Zenodo:  
-
 [![DOI]## Citation  
 If you use this work, please cite via Zenodo:  
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16804729.svg)](https://doi.org/10.5281/zenodo.16804729)  
 
 ## Discussion  
