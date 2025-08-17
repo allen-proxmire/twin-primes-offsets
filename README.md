@@ -1,56 +1,49 @@
-# Offsetting Twin Primes — Computational Note
+# Offsetting Twin Primes  
 
-**Author:** Allen Proxmire  
-**Date:** August 2025  
+## Overview  
+This project explores **prime generation patterns from twin primes** by applying linear offsets to the first element \(p\) of each twin prime pair \((p, p+2)\).  
 
----
+An earlier version of this analysis tested **4 offsets**. Expanding to **7 offsets** produces a significantly higher prime yield and reveals stronger distribution patterns across the offsets.  
 
-## Overview
-This project explores a simple but intriguing pattern in prime numbers.
+## Offsets Analyzed  
+For each twin prime pair \((p, p+2)\), the following expressions were tested for primality:  
 
-For each twin prime pair \((p, p+2)\) with \(p \leq 1,000,000\), I applied seven linear offsets to the first prime \(p\):
+\[
+\begin{aligned}
+q_1 &= 2p + 1 \\
+q_2 &= 2p + 3 \\
+q_3 &= 2p - 3 \\
+q_4 &= 2p - 5 \\
+q_5 &= 2p + 7 \\
+q_6 &= 2p + 9 \\
+q_7 &= 2p - 9
+\end{aligned}
+\]
 
-- **q1 = 2p + 1**  (Sophie Germain form)
-- **q2 = 2p + 3**  
-- **q3 = 2p − 3**
-- **q4 = 2p − 5**  
-- **q5 = 2p + 7**  
-- **q6 = 2p + 9**
-- **q7 = 2p − 9**  
+## Methodology  
+- **Twin primes tested:** all pairs with \(p \leq 1{,}000{,}000\).  
+- **Prime testing:** each \(q_i\) was checked for primality using Python.  
+- **Analysis goal:** measure how often each offset produces primes and compare across offsets.  
 
-The resulting numbers were tested for primality, and results were categorized by the last-digit pattern of the twin prime pair.
+## Key Results  
+- Expanding from 4 to 7 offsets **substantially increased the number of generated primes**.  
+- Certain offsets consistently outperform others in prime yield.  
+- This suggests nontrivial distribution patterns worth further study.  
 
----
+(A full results table is available in the repository outputs.)  
 
-## Key Findings
-- At least one offset produces a prime in **~82%** of all twin prime pairs tested.
-- Twin primes ending in **(1,3)**, **(7,9)**, **(9,1)** yield primes from the offsets in amounts **~5%** of each other.
-- Applying the seven offsets to the twin primes generates 7.65% of all prime numbers tested
-- This suggests interesting structural biases in prime distribution worth further exploration.
+## Code and Data  
+- All Python scripts used for generating and testing primes are included.  
+- Data files contain counts and distributions of primes by offset.  
 
----
+## Citation  
+If you use this work, please cite via Zenodo:  
 
-## Files in this Repository
-- **OFFSETTING TWIN PRIMES_v3.1_7OFFSETS_15AUG25.pdf** — Full 5-page write-up of methods and results.
-- Python script for generating twin primes, applying offsets, and testing for primality.
-- CSV data file of all results for reproducibility.
+[![DOI]## Citation  
+If you use this work, please cite via Zenodo:  
 
----
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16804729.svg)](https://doi.org/10.5281/zenodo.16804729)  
 
-## How to Reproduce
-1. Generate all twin primes (p, p+2) with (p ≤ 1,000,000).
-2. Apply the seven offset formulas to \(p\).
-3. Test each result for primality.
-4. Tabulate exact and cumulative totals.
-5. Tabulate prime/non-prime counts by twin prime ending digit pattern.
-
----
-
-## DOI
-https://doi.org/10.5281/zenodo.16804729
-
----
-
-## Contact
-I welcome questions, feedback, or collaborations.  
-Please open an **Issue** in this repository or email me directly.
+## Discussion  
+Open questions and possible directions:  
+- Why do certain offsets consistently yield m
