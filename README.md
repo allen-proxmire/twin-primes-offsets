@@ -17,7 +17,7 @@ For each twin prime pair (p, p+2), the following expressions were tested for pri
 - q7 = 2p - 9
 
 ## Methodology  
-- **Twin primes tested:** all pairs with \(p \leq 1{,}000{,}000\).  
+- **Twin primes tested:** all pairs with \(p \leq 1,000,000\).  
 - **Prime testing:** each (q) was checked for primality using Python.  
 - **Analysis goal:** measure how often each offset produces primes and compare across offsets.  
 
