@@ -6,7 +6,7 @@ This project explores **prime generation patterns from twin primes** by applying
 An earlier version of this analysis tested **4 offsets**. Expanding to **7 offsets** produces a significantly higher prime yield and reveals stronger distribution patterns across the offsets.  
 
 ## Offsets Analyzed  
-For each twin prime pair \(p, p+2)\, the following expressions were tested for primality:  
+For each twin prime pair (p, p+2), the following expressions were tested for primality:  
 
 - q1 = 2p + 1
 - q2 = 2p + 3
