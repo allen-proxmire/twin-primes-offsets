@@ -1,7 +1,7 @@
 # Offsetting Twin Primes  
 
 ## Overview  
-This project explores **prime generation patterns from twin primes** by applying linear offsets to the first element \(p\) of each twin prime pair \((p, p+2)\).  
+This project explores **prime generation patterns from twin primes** by applying linear offsets to the first element \(p\) of each twin prime pair (p, p+2).  
 
 An earlier version of this analysis tested **4 offsets**. Expanding to **7 offsets** produces a significantly higher prime yield and reveals stronger distribution patterns across the offsets.  
 
