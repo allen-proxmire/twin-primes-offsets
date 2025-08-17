@@ -32,8 +32,7 @@ For each twin prime pair (p, p+2), the following expressions were tested for pri
 - All Python scripts used for generating and testing primes are included.  
 - Data files contain counts and distributions of primes by offset.  
 
-## Citation  
-[![DOI]## Citation  
+## Citation   
 If you use this work, please cite via Zenodo:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16804729.svg)](https://doi.org/10.5281/zenodo.16804729)  
 
