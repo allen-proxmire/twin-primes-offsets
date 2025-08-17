@@ -8,13 +8,13 @@ An earlier version of this analysis tested **4 offsets**. Expanding to **7 offse
 ## Offsets Analyzed  
 For each twin prime pair \(p, p+2)\, the following expressions were tested for primality:  
 
-q1 = 2p + 1,
-q2 = 2p + 3,
-q3 = 2p - 3,
-q4 = 2p - 5,
-q5 = 2p + 7,
-q6 = 2p + 9,
-q7 = 2p - 9,
+- q1 = 2p + 1
+- q2 = 2p + 3
+- q3 = 2p - 3
+- q4 = 2p - 5
+- q5 = 2p + 7
+- q6 = 2p + 9
+- q7 = 2p - 9
 
 ## Methodology  
 - **Twin primes tested:** all pairs with \(p \leq 1{,}000{,}000\).  
